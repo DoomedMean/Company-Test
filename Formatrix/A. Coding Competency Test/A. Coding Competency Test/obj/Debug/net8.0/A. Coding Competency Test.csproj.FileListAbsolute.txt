@@ -1,0 +1,14 @@
+C:\Users\DoomedMean\Desktop\test\Formatrix\A. Coding Competency Test\A. Coding Competency Test\obj\Debug\net8.0\A. Coding Competency Test.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DoomedMean\Desktop\test\Formatrix\A. Coding Competency Test\A. Coding Competency Test\obj\Debug\net8.0\A. Coding Competency Test.AssemblyInfoInputs.cache
+C:\Users\DoomedMean\Desktop\test\Formatrix\A. Coding Competency Test\A. Coding Competency Test\obj\Debug\net8.0\A. Coding Competency Test.AssemblyInfo.cs
+C:\Users\DoomedMean\Desktop\test\Formatrix\A. Coding Competency Test\A. Coding Competency Test\obj\Debug\net8.0\A. Coding Competency Test.csproj.CoreCompileInputs.cache
+C:\Users\DoomedMean\Desktop\test\Formatrix\A. Coding Competency Test\A. Coding Competency Test\bin\Debug\net8.0\A. Coding Competency Test.exe
+C:\Users\DoomedMean\Desktop\test\Formatrix\A. Coding Competency Test\A. Coding Competency Test\bin\Debug\net8.0\A. Coding Competency Test.deps.json
+C:\Users\DoomedMean\Desktop\test\Formatrix\A. Coding Competency Test\A. Coding Competency Test\bin\Debug\net8.0\A. Coding Competency Test.runtimeconfig.json
+C:\Users\DoomedMean\Desktop\test\Formatrix\A. Coding Competency Test\A. Coding Competency Test\bin\Debug\net8.0\A. Coding Competency Test.dll
+C:\Users\DoomedMean\Desktop\test\Formatrix\A. Coding Competency Test\A. Coding Competency Test\bin\Debug\net8.0\A. Coding Competency Test.pdb
+C:\Users\DoomedMean\Desktop\test\Formatrix\A. Coding Competency Test\A. Coding Competency Test\obj\Debug\net8.0\A. Coding Competency Test.dll
+C:\Users\DoomedMean\Desktop\test\Formatrix\A. Coding Competency Test\A. Coding Competency Test\obj\Debug\net8.0\refint\A. Coding Competency Test.dll
+C:\Users\DoomedMean\Desktop\test\Formatrix\A. Coding Competency Test\A. Coding Competency Test\obj\Debug\net8.0\A. Coding Competency Test.pdb
+C:\Users\DoomedMean\Desktop\test\Formatrix\A. Coding Competency Test\A. Coding Competency Test\obj\Debug\net8.0\A. Coding Competency Test.genruntimeconfig.cache
+C:\Users\DoomedMean\Desktop\test\Formatrix\A. Coding Competency Test\A. Coding Competency Test\obj\Debug\net8.0\ref\A. Coding Competency Test.dll
