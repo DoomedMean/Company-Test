@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\DoomedMean\\Desktop\\test\\Formatrix\\A. Coding Competency Test\\",
+  "WorkspaceRootPath": "D:\\Project\\Company-Test\\Formatrix\\A. Coding Competency Test\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C832CAF8-4707-48A4-970A-5FE9181C3C07}|A. Coding Competency Test\\A. Coding Competency Test.csproj|c:\\users\\doomedmean\\desktop\\test\\formatrix\\a. coding competency test\\a. coding competency test\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C832CAF8-4707-48A4-970A-5FE9181C3C07}|A. Coding Competency Test\\A. Coding Competency Test.csproj|d:\\project\\company-test\\formatrix\\a. coding competency test\\a. coding competency test\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C832CAF8-4707-48A4-970A-5FE9181C3C07}|A. Coding Competency Test\\A. Coding Competency Test.csproj|solutionrelative:a. coding competency test\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -28,11 +28,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\DoomedMean\\Desktop\\test\\Formatrix\\A. Coding Competency Test\\A. Coding Competency Test\\Program.cs",
+              "DocumentMoniker": "D:\\Project\\Company-Test\\Formatrix\\A. Coding Competency Test\\A. Coding Competency Test\\Program.cs",
               "RelativeDocumentMoniker": "A. Coding Competency Test\\Program.cs",
-              "ToolTip": "C:\\Users\\DoomedMean\\Desktop\\test\\Formatrix\\A. Coding Competency Test\\A. Coding Competency Test\\Program.cs",
+              "ToolTip": "D:\\Project\\Company-Test\\Formatrix\\A. Coding Competency Test\\A. Coding Competency Test\\Program.cs",
               "RelativeToolTip": "A. Coding Competency Test\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAG4AAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-02T03:06:27.684Z",
               "EditorCaption": ""

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\DoomedMean\\Desktop\\test\\Formatrix\\A. Coding Competency Test\\A. Coding Competency Test\\A. Coding Competency Test.csproj": {}
+    "D:\\Project\\Company-Test\\Formatrix\\A. Coding Competency Test\\A. Coding Competency Test\\A. Coding Competency Test.csproj": {}
   },
   "projects": {
-    "C:\\Users\\DoomedMean\\Desktop\\test\\Formatrix\\A. Coding Competency Test\\A. Coding Competency Test\\A. Coding Competency Test.csproj": {
+    "D:\\Project\\Company-Test\\Formatrix\\A. Coding Competency Test\\A. Coding Competency Test\\A. Coding Competency Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DoomedMean\\Desktop\\test\\Formatrix\\A. Coding Competency Test\\A. Coding Competency Test\\A. Coding Competency Test.csproj",
+        "projectUniqueName": "D:\\Project\\Company-Test\\Formatrix\\A. Coding Competency Test\\A. Coding Competency Test\\A. Coding Competency Test.csproj",
         "projectName": "A. Coding Competency Test",
-        "projectPath": "C:\\Users\\DoomedMean\\Desktop\\test\\Formatrix\\A. Coding Competency Test\\A. Coding Competency Test\\A. Coding Competency Test.csproj",
+        "projectPath": "D:\\Project\\Company-Test\\Formatrix\\A. Coding Competency Test\\A. Coding Competency Test\\A. Coding Competency Test.csproj",
         "packagesPath": "C:\\Users\\DoomedMean\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DoomedMean\\Desktop\\test\\Formatrix\\A. Coding Competency Test\\A. Coding Competency Test\\obj\\",
+        "outputPath": "D:\\Project\\Company-Test\\Formatrix\\A. Coding Competency Test\\A. Coding Competency Test\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
