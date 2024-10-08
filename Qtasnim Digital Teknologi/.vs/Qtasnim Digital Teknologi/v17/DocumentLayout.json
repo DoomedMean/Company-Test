@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "D:\\Project\\Company-Test\\Qtasnim Digital Teknologi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B41322C6-D363-4C31-8BCA-3F4FE8119D7B}|Qtasnim Digital Teknologi\\Qtasnim Digital Teknologi.csproj|d:\\project\\company-test\\qtasnim digital teknologi\\qtasnim digital teknologi\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B41322C6-D363-4C31-8BCA-3F4FE8119D7B}|Qtasnim Digital Teknologi\\Qtasnim Digital Teknologi.csproj|solutionrelative:qtasnim digital teknologi\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{B41322C6-D363-4C31-8BCA-3F4FE8119D7B}|Qtasnim Digital Teknologi\\Qtasnim Digital Teknologi.csproj|d:\\project\\company-test\\qtasnim digital teknologi\\qtasnim digital teknologi\\qtasnim digital teknologi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B41322C6-D363-4C31-8BCA-3F4FE8119D7B}|Qtasnim Digital Teknologi\\Qtasnim Digital Teknologi.csproj|solutionrelative:qtasnim digital teknologi\\qtasnim digital teknologi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,13 +27,13 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "D:\\Project\\Company-Test\\Qtasnim Digital Teknologi\\Qtasnim Digital Teknologi\\Form1.cs",
-              "RelativeDocumentMoniker": "Qtasnim Digital Teknologi\\Form1.cs",
-              "ToolTip": "D:\\Project\\Company-Test\\Qtasnim Digital Teknologi\\Qtasnim Digital Teknologi\\Form1.cs [Design]",
-              "RelativeToolTip": "Qtasnim Digital Teknologi\\Form1.cs [Design]",
+              "Title": "Qtasnim Digital Teknologi.cs [Design]",
+              "DocumentMoniker": "D:\\Project\\Company-Test\\Qtasnim Digital Teknologi\\Qtasnim Digital Teknologi\\Qtasnim Digital Teknologi.cs",
+              "RelativeDocumentMoniker": "Qtasnim Digital Teknologi\\Qtasnim Digital Teknologi.cs",
+              "ToolTip": "D:\\Project\\Company-Test\\Qtasnim Digital Teknologi\\Qtasnim Digital Teknologi\\Qtasnim Digital Teknologi.cs [Design]",
+              "RelativeToolTip": "Qtasnim Digital Teknologi\\Qtasnim Digital Teknologi.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T20:34:29.804Z",
+              "WhenOpened": "2024-10-08T21:59:26.449Z",
               "EditorCaption": " [Design]"
             }
           ]

@@ -19,7 +19,7 @@ namespace Qtasnim_Digital_Teknologi
 
 		private void btnSave_Click(object sender, EventArgs e)
 		{
-			if(tboxItemName.Text == "")
+			if (tboxItemName.Text == "")
 			{
 				MessageBox.Show("Name can't be empty");
 			}
@@ -28,6 +28,11 @@ namespace Qtasnim_Digital_Teknologi
 			{
 				MessageBox.Show("Quantity can't be empty");
 			}
+		}
+
+		private void btnCancel_Click(object sender, EventArgs e)
+		{
+			this.Close();
 		}
 	}
 }

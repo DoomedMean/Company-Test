@@ -250,7 +250,6 @@ D:\Project\Company-Test\Qtasnim Digital Teknologi\Qtasnim Digital Teknologi\bin\
 D:\Project\Company-Test\Qtasnim Digital Teknologi\Qtasnim Digital Teknologi\bin\Debug\net8.0-windows\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
 D:\Project\Company-Test\Qtasnim Digital Teknologi\Qtasnim Digital Teknologi\obj\Debug\net8.0-windows\Qtasnim Digital Teknologi.csproj.AssemblyReference.cache
 D:\Project\Company-Test\Qtasnim Digital Teknologi\Qtasnim Digital Teknologi\obj\Debug\net8.0-windows\Qtasnim_Digital_Teknologi.AddNewItem.resources
-D:\Project\Company-Test\Qtasnim Digital Teknologi\Qtasnim Digital Teknologi\obj\Debug\net8.0-windows\Qtasnim_Digital_Teknologi.Form1.resources
 D:\Project\Company-Test\Qtasnim Digital Teknologi\Qtasnim Digital Teknologi\obj\Debug\net8.0-windows\Qtasnim Digital Teknologi.csproj.GenerateResource.cache
 D:\Project\Company-Test\Qtasnim Digital Teknologi\Qtasnim Digital Teknologi\obj\Debug\net8.0-windows\Qtasnim Digital Teknologi.GeneratedMSBuildEditorConfig.editorconfig
 D:\Project\Company-Test\Qtasnim Digital Teknologi\Qtasnim Digital Teknologi\obj\Debug\net8.0-windows\Qtasnim Digital Teknologi.AssemblyInfoInputs.cache
@@ -263,3 +262,4 @@ D:\Project\Company-Test\Qtasnim Digital Teknologi\Qtasnim Digital Teknologi\obj\
 D:\Project\Company-Test\Qtasnim Digital Teknologi\Qtasnim Digital Teknologi\obj\Debug\net8.0-windows\Qtasnim Digital Teknologi.pdb
 D:\Project\Company-Test\Qtasnim Digital Teknologi\Qtasnim Digital Teknologi\obj\Debug\net8.0-windows\Qtasnim Digital Teknologi.genruntimeconfig.cache
 D:\Project\Company-Test\Qtasnim Digital Teknologi\Qtasnim Digital Teknologi\obj\Debug\net8.0-windows\ref\Qtasnim Digital Teknologi.dll
+D:\Project\Company-Test\Qtasnim Digital Teknologi\Qtasnim Digital Teknologi\obj\Debug\net8.0-windows\Qtasnim_Digital_Teknologi.QtasnimDigitalTeknologi.resources

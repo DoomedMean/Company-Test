@@ -9,9 +9,9 @@ using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace Qtasnim_Digital_Teknologi
 {
-	public partial class Form1 : Form
+	public partial class QtasnimDigitalTeknologi : Form
 	{
-		public Form1()
+		public QtasnimDigitalTeknologi()
 		{
 			InitializeComponent();
 		}

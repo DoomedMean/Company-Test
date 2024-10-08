@@ -1,6 +1,6 @@
 ﻿namespace Qtasnim_Digital_Teknologi
 {
-	partial class Form1
+	partial class QtasnimDigitalTeknologi
 	{
 		/// <summary>
 		///  Required designer variable.
@@ -31,10 +31,10 @@
 			pnlDGVInventory = new Panel();
 			dgvInventory = new DataGridView();
 			pnlSideBar = new Panel();
+			btnAdd = new Button();
 			btnRefresh = new Button();
 			btnDelete = new Button();
 			btnSave = new Button();
-			btnAdd = new Button();
 			pnlDGVInventory.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)dgvInventory).BeginInit();
 			pnlSideBar.SuspendLayout();
@@ -70,6 +70,16 @@
 			pnlSideBar.Size = new Size(181, 450);
 			pnlSideBar.TabIndex = 5;
 			// 
+			// btnAdd
+			// 
+			btnAdd.Location = new Point(46, 134);
+			btnAdd.Name = "btnAdd";
+			btnAdd.Size = new Size(82, 32);
+			btnAdd.TabIndex = 5;
+			btnAdd.Text = "Add";
+			btnAdd.UseVisualStyleBackColor = true;
+			btnAdd.Click += btnAdd_Click;
+			// 
 			// btnRefresh
 			// 
 			btnRefresh.Location = new Point(46, 314);
@@ -99,25 +109,16 @@
 			btnSave.Text = "Save";
 			btnSave.UseVisualStyleBackColor = true;
 			// 
-			// btnAdd
-			// 
-			btnAdd.Location = new Point(46, 134);
-			btnAdd.Name = "btnAdd";
-			btnAdd.Size = new Size(82, 32);
-			btnAdd.TabIndex = 5;
-			btnAdd.Text = "Add";
-			btnAdd.UseVisualStyleBackColor = true;
-			btnAdd.Click += btnAdd_Click;
-			// 
-			// Form1
+			// QtasnimDigitalTeknologi
 			// 
 			AutoScaleDimensions = new SizeF(7F, 15F);
 			AutoScaleMode = AutoScaleMode.Font;
 			ClientSize = new Size(800, 450);
 			Controls.Add(pnlDGVInventory);
 			Controls.Add(pnlSideBar);
-			Name = "Form1";
-			Text = "Form1";
+			Name = "QtasnimDigitalTeknologi";
+			StartPosition = FormStartPosition.CenterScreen;
+			Text = "Qtasnim Digital Teknologi";
 			Load += Form1_Load;
 			pnlDGVInventory.ResumeLayout(false);
 			((System.ComponentModel.ISupportInitialize)dgvInventory).EndInit();
