@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Qtasnim_Digital_Teknologi.Data;
+using Qtasnim_Digital_Teknologi.Model;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -16,6 +18,14 @@ namespace Qtasnim_Digital_Teknologi
 		{
 			InitializeComponent();
 		}
+		private void tboxQty_KeyPress(object sender, KeyPressEventArgs e)
+		{
+			if (!char.IsDigit(e.KeyChar) && !char.IsControl(e.KeyChar))
+			{
+				MessageBox.Show("Please enter a valid number");
+				e.Handled = true; // Prevent the character from being entered into the TextBox
+			}
+		}
 
 		private void btnSave_Click(object sender, EventArgs e)
 		{
@@ -28,11 +38,22 @@ namespace Qtasnim_Digital_Teknologi
 			{
 				MessageBox.Show("Quantity can't be empty");
 			}
+			else
+			{
+				using (var context = new ApplicationDBContext())
+				{
+					var newitem = new Inventory { Name = tboxItemName.Text, Quantity = int.Parse(tboxQty.Text), Description = tboxDescription.Text };
+					context.inventories.Add(newitem);
+					context.SaveChanges();
+					this.Close();
+				}
+			}
 		}
 
 		private void btnCancel_Click(object sender, EventArgs e)
 		{
 			this.Close();
 		}
+
 	}
 }

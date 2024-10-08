@@ -78,6 +78,7 @@
 			tboxQty.Name = "tboxQty";
 			tboxQty.Size = new Size(61, 23);
 			tboxQty.TabIndex = 4;
+			tboxQty.KeyPress += tboxQty_KeyPress;
 			// 
 			// tboxDescription
 			// 

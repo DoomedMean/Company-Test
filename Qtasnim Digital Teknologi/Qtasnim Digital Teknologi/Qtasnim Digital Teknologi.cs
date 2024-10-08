@@ -26,10 +26,11 @@ namespace Qtasnim_Digital_Teknologi
 			newitem.ShowDialog();
 			LoadDataBase();
 		}
-		//private void btnSave_Click(object sender, EventArgs e)
-		//{
-		//	Save();
-		//}
+		private void btnSave_Click(object sender, EventArgs e)
+		{
+			MessageBox.Show("Not Configured");
+			//Save();
+		}
 
 		private void btnDelete_Click(object sender, EventArgs e)
 		{
@@ -52,13 +53,25 @@ namespace Qtasnim_Digital_Teknologi
 					dgvInventory.DataSource = data;
 				}
 				dgvInventory.Columns["ID"].ReadOnly = true;
+				btnAdd.Enabled = true;
+				btnSave.Enabled = true;
+				btnDelete.Enabled = true;
+				btnRefresh.Enabled = true;
 			}
 			catch(SqlException ex)
 			{
+				btnAdd.Enabled = false;
+				btnSave.Enabled = false;
+				btnDelete.Enabled = false;
+				btnRefresh.Enabled = false;
 				MessageBox.Show("Cannot cannot to Database", "Database error", MessageBoxButtons.OK, MessageBoxIcon.Error);
 			}
 			catch (Exception ex)
 			{
+				btnAdd.Enabled = false;
+				btnSave.Enabled = false;
+				btnDelete.Enabled = false;
+				btnRefresh.Enabled = false;
 				MessageBox.Show(ex.Message,"Error", MessageBoxButtons.OK,MessageBoxIcon.Error);
 			}
 		}
@@ -76,7 +89,7 @@ namespace Qtasnim_Digital_Teknologi
 			{
 				using (var context = new ApplicationDBContext())
 				{
-					var confirmation = MessageBox.Show("Are you Sre want to Delete Seleted item?", "Delete", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+					var confirmation = MessageBox.Show("Are you sure want to Delete Seleted item?", "Delete", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
 					if (confirmation == DialogResult.Yes)
 					{
 						for (int i = 0; i < selecteCells; i++)
