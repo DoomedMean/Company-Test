@@ -1,0 +1,190 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Project\\Company-Test\\Eigen Tri Mathema\\Backend\\ASP.NET Web API\\LibrarySys\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F910EEB8-79F9-4EC2-9FDA-A1DBC9B4B786}|LibrarySys\\LibrarySys.csproj|d:\\project\\company-test\\eigen tri mathema\\backend\\asp.net web api\\librarysys\\librarysys\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F910EEB8-79F9-4EC2-9FDA-A1DBC9B4B786}|LibrarySys\\LibrarySys.csproj|solutionrelative:librarysys\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F910EEB8-79F9-4EC2-9FDA-A1DBC9B4B786}|LibrarySys\\LibrarySys.csproj|d:\\project\\company-test\\eigen tri mathema\\backend\\asp.net web api\\librarysys\\librarysys\\librarycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F910EEB8-79F9-4EC2-9FDA-A1DBC9B4B786}|LibrarySys\\LibrarySys.csproj|solutionrelative:librarysys\\librarycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F910EEB8-79F9-4EC2-9FDA-A1DBC9B4B786}|LibrarySys\\LibrarySys.csproj|d:\\project\\company-test\\eigen tri mathema\\backend\\asp.net web api\\librarysys\\librarysys\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F910EEB8-79F9-4EC2-9FDA-A1DBC9B4B786}|LibrarySys\\LibrarySys.csproj|solutionrelative:librarysys\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F910EEB8-79F9-4EC2-9FDA-A1DBC9B4B786}|LibrarySys\\LibrarySys.csproj|d:\\project\\company-test\\eigen tri mathema\\backend\\asp.net web api\\librarysys\\librarysys\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F910EEB8-79F9-4EC2-9FDA-A1DBC9B4B786}|LibrarySys\\LibrarySys.csproj|solutionrelative:librarysys\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F910EEB8-79F9-4EC2-9FDA-A1DBC9B4B786}|LibrarySys\\LibrarySys.csproj|d:\\project\\company-test\\eigen tri mathema\\backend\\asp.net web api\\librarysys\\librarysys\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F910EEB8-79F9-4EC2-9FDA-A1DBC9B4B786}|LibrarySys\\LibrarySys.csproj|solutionrelative:librarysys\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F910EEB8-79F9-4EC2-9FDA-A1DBC9B4B786}|LibrarySys\\LibrarySys.csproj|d:\\project\\company-test\\eigen tri mathema\\backend\\asp.net web api\\librarysys\\librarysys\\models\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F910EEB8-79F9-4EC2-9FDA-A1DBC9B4B786}|LibrarySys\\LibrarySys.csproj|solutionrelative:librarysys\\models\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F910EEB8-79F9-4EC2-9FDA-A1DBC9B4B786}|LibrarySys\\LibrarySys.csproj|d:\\project\\company-test\\eigen tri mathema\\backend\\asp.net web api\\librarysys\\librarysys\\models\\borrowing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F910EEB8-79F9-4EC2-9FDA-A1DBC9B4B786}|LibrarySys\\LibrarySys.csproj|solutionrelative:librarysys\\models\\borrowing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F910EEB8-79F9-4EC2-9FDA-A1DBC9B4B786}|LibrarySys\\LibrarySys.csproj|d:\\project\\company-test\\eigen tri mathema\\backend\\asp.net web api\\librarysys\\librarysys\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F910EEB8-79F9-4EC2-9FDA-A1DBC9B4B786}|LibrarySys\\LibrarySys.csproj|solutionrelative:librarysys\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F910EEB8-79F9-4EC2-9FDA-A1DBC9B4B786}|LibrarySys\\LibrarySys.csproj|d:\\project\\company-test\\eigen tri mathema\\backend\\asp.net web api\\librarysys\\librarysys\\controllers\\membercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F910EEB8-79F9-4EC2-9FDA-A1DBC9B4B786}|LibrarySys\\LibrarySys.csproj|solutionrelative:librarysys\\controllers\\membercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F910EEB8-79F9-4EC2-9FDA-A1DBC9B4B786}|LibrarySys\\LibrarySys.csproj|d:\\project\\company-test\\eigen tri mathema\\backend\\asp.net web api\\librarysys\\librarysys\\controllers\\borrowingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F910EEB8-79F9-4EC2-9FDA-A1DBC9B4B786}|LibrarySys\\LibrarySys.csproj|solutionrelative:librarysys\\controllers\\borrowingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 193,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Project\\Company-Test\\Eigen Tri Mathema\\Backend\\ASP.NET Web API\\LibrarySys\\LibrarySys\\Program.cs",
+              "RelativeDocumentMoniker": "LibrarySys\\Program.cs",
+              "ToolTip": "D:\\Project\\Company-Test\\Eigen Tri Mathema\\Backend\\ASP.NET Web API\\LibrarySys\\LibrarySys\\Program.cs",
+              "RelativeToolTip": "LibrarySys\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T01:52:18.11Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Project\\Company-Test\\Eigen Tri Mathema\\Backend\\ASP.NET Web API\\LibrarySys\\LibrarySys\\appsettings.json",
+              "RelativeDocumentMoniker": "LibrarySys\\appsettings.json",
+              "ToolTip": "D:\\Project\\Company-Test\\Eigen Tri Mathema\\Backend\\ASP.NET Web API\\LibrarySys\\LibrarySys\\appsettings.json",
+              "RelativeToolTip": "LibrarySys\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-07T21:26:22.844Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\Project\\Company-Test\\Eigen Tri Mathema\\Backend\\ASP.NET Web API\\LibrarySys\\LibrarySys\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "LibrarySys\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\Project\\Company-Test\\Eigen Tri Mathema\\Backend\\ASP.NET Web API\\LibrarySys\\LibrarySys\\Properties\\launchSettings.json",
+              "RelativeToolTip": "LibrarySys\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-07T21:26:17.093Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MemberController.cs",
+              "DocumentMoniker": "D:\\Project\\Company-Test\\Eigen Tri Mathema\\Backend\\ASP.NET Web API\\LibrarySys\\LibrarySys\\Controllers\\MemberController.cs",
+              "RelativeDocumentMoniker": "LibrarySys\\Controllers\\MemberController.cs",
+              "ToolTip": "D:\\Project\\Company-Test\\Eigen Tri Mathema\\Backend\\ASP.NET Web API\\LibrarySys\\LibrarySys\\Controllers\\MemberController.cs",
+              "RelativeToolTip": "LibrarySys\\Controllers\\MemberController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T20:33:11.518Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BorrowingController.cs",
+              "DocumentMoniker": "D:\\Project\\Company-Test\\Eigen Tri Mathema\\Backend\\ASP.NET Web API\\LibrarySys\\LibrarySys\\Controllers\\BorrowingController.cs",
+              "RelativeDocumentMoniker": "LibrarySys\\Controllers\\BorrowingController.cs",
+              "ToolTip": "D:\\Project\\Company-Test\\Eigen Tri Mathema\\Backend\\ASP.NET Web API\\LibrarySys\\LibrarySys\\Controllers\\BorrowingController.cs",
+              "RelativeToolTip": "LibrarySys\\Controllers\\BorrowingController.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T20:33:05.768Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Member.cs",
+              "DocumentMoniker": "D:\\Project\\Company-Test\\Eigen Tri Mathema\\Backend\\ASP.NET Web API\\LibrarySys\\LibrarySys\\Models\\Member.cs",
+              "RelativeDocumentMoniker": "LibrarySys\\Models\\Member.cs",
+              "ToolTip": "D:\\Project\\Company-Test\\Eigen Tri Mathema\\Backend\\ASP.NET Web API\\LibrarySys\\LibrarySys\\Models\\Member.cs",
+              "RelativeToolTip": "LibrarySys\\Models\\Member.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T20:32:47.085Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Borrowing.cs",
+              "DocumentMoniker": "D:\\Project\\Company-Test\\Eigen Tri Mathema\\Backend\\ASP.NET Web API\\LibrarySys\\LibrarySys\\Models\\Borrowing.cs",
+              "RelativeDocumentMoniker": "LibrarySys\\Models\\Borrowing.cs",
+              "ToolTip": "D:\\Project\\Company-Test\\Eigen Tri Mathema\\Backend\\ASP.NET Web API\\LibrarySys\\LibrarySys\\Models\\Borrowing.cs",
+              "RelativeToolTip": "LibrarySys\\Models\\Borrowing.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T20:32:43.172Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Book.cs",
+              "DocumentMoniker": "D:\\Project\\Company-Test\\Eigen Tri Mathema\\Backend\\ASP.NET Web API\\LibrarySys\\LibrarySys\\Models\\Book.cs",
+              "RelativeDocumentMoniker": "LibrarySys\\Models\\Book.cs",
+              "ToolTip": "D:\\Project\\Company-Test\\Eigen Tri Mathema\\Backend\\ASP.NET Web API\\LibrarySys\\LibrarySys\\Models\\Book.cs",
+              "RelativeToolTip": "LibrarySys\\Models\\Book.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T05:49:59.508Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BookController.cs",
+              "DocumentMoniker": "D:\\Project\\Company-Test\\Eigen Tri Mathema\\Backend\\ASP.NET Web API\\LibrarySys\\LibrarySys\\Controllers\\BookController.cs",
+              "RelativeDocumentMoniker": "LibrarySys\\Controllers\\BookController.cs",
+              "ToolTip": "D:\\Project\\Company-Test\\Eigen Tri Mathema\\Backend\\ASP.NET Web API\\LibrarySys\\LibrarySys\\Controllers\\BookController.cs",
+              "RelativeToolTip": "LibrarySys\\Controllers\\BookController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T05:36:34.495Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LibraryContext.cs",
+              "DocumentMoniker": "D:\\Project\\Company-Test\\Eigen Tri Mathema\\Backend\\ASP.NET Web API\\LibrarySys\\LibrarySys\\LibraryContext.cs",
+              "RelativeDocumentMoniker": "LibrarySys\\LibraryContext.cs",
+              "ToolTip": "D:\\Project\\Company-Test\\Eigen Tri Mathema\\Backend\\ASP.NET Web API\\LibrarySys\\LibrarySys\\LibraryContext.cs",
+              "RelativeToolTip": "LibrarySys\\LibraryContext.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA5wCMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T05:30:27.496Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
