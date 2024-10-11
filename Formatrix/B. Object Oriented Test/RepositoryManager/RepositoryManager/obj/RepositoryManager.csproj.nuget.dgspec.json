@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\DoomedMean\\Desktop\\test\\Formatrix\\B. Object Oriented Test\\RepositoryManager\\RepositoryManager\\RepositoryManager.csproj": {}
+    "D:\\Project\\Company-Test\\Formatrix\\B. Object Oriented Test\\RepositoryManager\\RepositoryManager\\RepositoryManager.csproj": {}
   },
   "projects": {
-    "C:\\Users\\DoomedMean\\Desktop\\test\\Formatrix\\B. Object Oriented Test\\RepositoryManager\\RepositoryManager\\RepositoryManager.csproj": {
+    "D:\\Project\\Company-Test\\Formatrix\\B. Object Oriented Test\\RepositoryManager\\RepositoryManager\\RepositoryManager.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DoomedMean\\Desktop\\test\\Formatrix\\B. Object Oriented Test\\RepositoryManager\\RepositoryManager\\RepositoryManager.csproj",
+        "projectUniqueName": "D:\\Project\\Company-Test\\Formatrix\\B. Object Oriented Test\\RepositoryManager\\RepositoryManager\\RepositoryManager.csproj",
         "projectName": "RepositoryManager",
-        "projectPath": "C:\\Users\\DoomedMean\\Desktop\\test\\Formatrix\\B. Object Oriented Test\\RepositoryManager\\RepositoryManager\\RepositoryManager.csproj",
+        "projectPath": "D:\\Project\\Company-Test\\Formatrix\\B. Object Oriented Test\\RepositoryManager\\RepositoryManager\\RepositoryManager.csproj",
         "packagesPath": "C:\\Users\\DoomedMean\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DoomedMean\\Desktop\\test\\Formatrix\\B. Object Oriented Test\\RepositoryManager\\RepositoryManager\\obj\\",
+        "outputPath": "D:\\Project\\Company-Test\\Formatrix\\B. Object Oriented Test\\RepositoryManager\\RepositoryManager\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

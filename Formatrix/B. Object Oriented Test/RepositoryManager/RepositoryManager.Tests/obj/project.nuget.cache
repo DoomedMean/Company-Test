@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "m5Jsbl9iGcw=",
+  "dgSpecHash": "ENYRROiR06o=",
   "success": true,
-  "projectFilePath": "C:\\Users\\DoomedMean\\Desktop\\test\\Formatrix\\B. Object Oriented Test\\RepositoryManager\\RepositoryManager.Tests\\RepositoryManager.Tests.csproj",
+  "projectFilePath": "D:\\Project\\Company-Test\\Formatrix\\B. Object Oriented Test\\RepositoryManager\\RepositoryManager.Tests\\RepositoryManager.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DoomedMean\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
     "C:\\Users\\DoomedMean\\.nuget\\packages\\microsoft.codecoverage\\17.8.0\\microsoft.codecoverage.17.8.0.nupkg.sha512",

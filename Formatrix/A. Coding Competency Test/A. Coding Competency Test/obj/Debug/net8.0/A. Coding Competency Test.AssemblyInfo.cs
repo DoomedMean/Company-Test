@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("A. Coding Competency Test")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4993184656e34abc06e2b1399269472d5fc2d097")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+61bb9b1037f31e9bff2d53419fa32dfec23201f9")]
 [assembly: System.Reflection.AssemblyProductAttribute("A. Coding Competency Test")]
 [assembly: System.Reflection.AssemblyTitleAttribute("A. Coding Competency Test")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

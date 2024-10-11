@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ravYnqINoB0=",
+  "dgSpecHash": "auWeUXWx0uA=",
   "success": true,
-  "projectFilePath": "C:\\Users\\DoomedMean\\Desktop\\test\\Formatrix\\B. Object Oriented Test\\RepositoryManager\\RepositoryManager\\RepositoryManager.csproj",
+  "projectFilePath": "D:\\Project\\Company-Test\\Formatrix\\B. Object Oriented Test\\RepositoryManager\\RepositoryManager\\RepositoryManager.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DoomedMean\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
   ],

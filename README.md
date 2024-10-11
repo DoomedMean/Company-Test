@@ -21,3 +21,8 @@ Qtasnim Digital Teknologi
 2. Language C#
 3. Framework: Entity Framework, .NET Framework
 4. Database: SQL Server
+
+Dana Bagus
+1. Algorithm Test
+2. API Integration
+Language C#
