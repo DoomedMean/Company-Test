@@ -107,6 +107,7 @@
 			// 
 			// btnAdd
 			// 
+			btnAdd.Enabled = false;
 			btnAdd.Location = new Point(61, 135);
 			btnAdd.Name = "btnAdd";
 			btnAdd.Size = new Size(82, 32);
@@ -127,6 +128,7 @@
 			// 
 			// btnDelete
 			// 
+			btnDelete.Enabled = false;
 			btnDelete.Location = new Point(61, 193);
 			btnDelete.Name = "btnDelete";
 			btnDelete.Size = new Size(82, 32);
@@ -137,6 +139,7 @@
 			// 
 			// btnSave
 			// 
+			btnSave.Enabled = false;
 			btnSave.Location = new Point(61, 246);
 			btnSave.Name = "btnSave";
 			btnSave.Size = new Size(82, 32);
@@ -155,7 +158,9 @@
 			Name = "QtasnimDigitalTeknologi";
 			StartPosition = FormStartPosition.CenterScreen;
 			Text = "Qtasnim Digital Teknologi";
-			Load += Form1_Load;
+			FormClosing += QtasnimDigitalTeknologi_FormClosing;
+			Load += QtasnimDigitalTeknologi_Load;
+			Shown += QtasnimDigitalTeknologi_Shown;
 			pnlDGVInventory.ResumeLayout(false);
 			((System.ComponentModel.ISupportInitialize)dgvInventory).EndInit();
 			pnlSideBar.ResumeLayout(false);

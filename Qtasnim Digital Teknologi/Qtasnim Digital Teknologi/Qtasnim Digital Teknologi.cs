@@ -15,22 +15,35 @@ namespace Qtasnim_Digital_Teknologi
 {
 	public partial class QtasnimDigitalTeknologi : Form
 	{
+		#region Global Variable
 		private Loading loadingScreen;
 		private readonly HttpClient _httpClient = new HttpClient();
-		private string placeholder ="Enter Database Url";
+		private string placeholder = "Enter Database Url";
+		private Thread loadingThread;
+		#endregion
 
 		public QtasnimDigitalTeknologi()
 		{
 			InitializeComponent();
 		}
 
-
 		#region Event
-		private void Form1_Load(object sender, EventArgs e)
+		private void QtasnimDigitalTeknologi_Load(object sender, EventArgs e)
 		{
-			LoadDataBase();
 			tboxLink.Text = "Enter Database Url";
 			tboxLink.ForeColor = Color.Gray;
+		}
+		private void QtasnimDigitalTeknologi_Shown(object sender, EventArgs e)
+		{
+			LoadDataBase();
+		}
+		private void QtasnimDigitalTeknologi_FormClosing(object sender, FormClosingEventArgs e)
+		{
+			if (loadingScreen != null)
+			{
+				loadingScreen.Dispose();
+				loadingScreen = null;
+			}
 		}
 		private void btnDelete_Click(object sender, EventArgs e)
 		{
@@ -41,7 +54,7 @@ namespace Qtasnim_Digital_Teknologi
 		{
 			LoadDataBase();
 		}
-		private async void btnAdd_Click(object sender, EventArgs e)
+		private void btnAdd_Click(object sender, EventArgs e)
 		{
 			AddNewItem newitem = new AddNewItem();
 			newitem.ShowDialog();
@@ -50,7 +63,24 @@ namespace Qtasnim_Digital_Teknologi
 		private void btnSave_Click(object sender, EventArgs e)
 		{
 			Save();
+			LoadDataBase();
 			MessageBox.Show("Update Successfully");
+		}
+		private void tboxLink_Enter(object sender, EventArgs e)
+		{
+			if (tboxLink.Text == placeholder)
+			{
+				tboxLink.Text = string.Empty;
+				tboxLink.ForeColor = Color.Black;
+			}
+		}
+		private void tboxLink_Leave(object sender, EventArgs e)
+		{
+			if (tboxLink.Text.IsNullOrEmpty())
+			{
+				tboxLink.Text = placeholder;
+				tboxLink.ForeColor = Color.Gray;
+			}
 		}
 		private async void btnFetch_Click(object sender, EventArgs e)
 		{
@@ -81,76 +111,103 @@ namespace Qtasnim_Digital_Teknologi
 				MessageBox.Show("No items to send.");
 			}
 		}
-		private void tboxLink_Enter(object sender, EventArgs e)
-		{
-			if (tboxLink.Text == placeholder)
-			{
-				tboxLink.Text = string.Empty;
-				tboxLink.ForeColor = Color.Black;
-			}
-		}
-		private void tboxLink_Leave(object sender, EventArgs e)
-		{
-			if (tboxLink.Text.IsNullOrEmpty())
-			{
-				tboxLink.Text = placeholder;
-				tboxLink.ForeColor = Color.Gray;
-			}
-		}
 		#endregion
 
 		#region Method
-		private void LoadingScreen()
+		//private void LoadingScreen()
+		//{
+		//	if (loadingScreen == null)
+		//	{
+		//		loadingThread = new Thread(() =>
+		//		{
+		//			loadingScreen = new Loading();
+		//			loadingScreen.Show();
+		//			loadingScreen.Refresh();
+		//			Application.Run();
+		//		});
+		//		loadingThread.SetApartmentState(ApartmentState.STA);
+		//		loadingThread.Start();
+		//	}
+		//	else if (loadingScreen != null)
+		//	{
+		//		loadingScreen.Invoke(new Action(() =>
+		//		{
+		//			loadingScreen.Close();
+		//			loadingScreen.Dispose();
+		//		}));
+		//		loadingThread.Join();
+		//		loadingThread = null;
+		//	}
+		//}
+
+		private void ShowLoadingScreen()
 		{
-			if (loadingScreen == null)
+			loadingThread = new Thread(() =>
 			{
 				loadingScreen = new Loading();
-				loadingScreen.Show();
-				loadingScreen.Refresh();
-			}
-			else
-			{
-				loadingScreen.Close();
-				loadingScreen.Dispose();
-			}
+				loadingScreen.ShowDialog(); // Use ShowDialog to block until it is closed
+			});
 
+			loadingThread.SetApartmentState(ApartmentState.STA); // Set to STA for UI threads
+			loadingThread.Start();
+			btnFetch.Enabled = false;
+			btnRefresh.Enabled = false;
 		}
-		private void LoadDataBase()
+		private void CloseLoadingScreen()
 		{
+			if (loadingScreen != null)
+			{
+				loadingScreen.Invoke(new Action(() =>
+				{
+					loadingScreen.Close();
+					loadingScreen.Dispose();
+				}));
+
+				loadingThread.Join(); // Wait for the thread to finish
+				loadingThread = null; // Reset the thread
+			}
+			btnFetch.Enabled = true;
+			btnRefresh.Enabled = true;
+		}
+		private async void LoadDataBase()
+		{
+			ShowLoadingScreen();
 			try
 			{
-				LoadingScreen();
-				using (var _context = new ApplicationDBContext())
-
+				var data = await Task.Run(() =>
 				{
-					var data = _context.inventories.ToList();
-
-					dgvInventory.DataSource = data;
+					using (var _context = new ApplicationDBContext())
+					{
+						try
+						{
+							return _context.inventories.ToList();
+						}
+						catch (SqlException ex)
+						{
+							MessageBox.Show("Cannot connect to Database", "Database error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+							return null;
+						}
+					}
+				});
+				if (data != null)
+				{
+					dgvInventory.Invoke(new Action(() =>
+					{
+						dgvInventory.DataSource = data;
+						dgvInventory.Columns["ID"].ReadOnly = true;
+						btnAdd.Enabled = true;
+						btnSave.Enabled = true;
+						btnDelete.Enabled = true;
+					}));
 				}
-				LoadingScreen();
-				dgvInventory.Columns["ID"].ReadOnly = true;
-				btnAdd.Enabled = true;
-				btnSave.Enabled = true;
-				btnDelete.Enabled = true;
-				btnRefresh.Enabled = true;
-			}
-			catch (SqlException ex)
-			{
-				LoadingScreen();
-				btnAdd.Enabled = false;
-				btnSave.Enabled = false;
-				btnDelete.Enabled = false;
-				btnRefresh.Enabled = false;
-				MessageBox.Show("Cannot cannot to Database", "Database error", MessageBoxButtons.OK, MessageBoxIcon.Error);
 			}
 			catch (Exception ex)
 			{
-				LoadingScreen();
-				btnAdd.Enabled = false;
-				btnSave.Enabled = false;
-				btnDelete.Enabled = false;
-				btnRefresh.Enabled = false;
 				MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+			}
+			finally
+			{
+				CloseLoadingScreen();
 			}
 		}
 		public void Save()
@@ -293,5 +350,6 @@ namespace Qtasnim_Digital_Teknologi
 			}
 		}
 		#endregion
+
 	}
 }
