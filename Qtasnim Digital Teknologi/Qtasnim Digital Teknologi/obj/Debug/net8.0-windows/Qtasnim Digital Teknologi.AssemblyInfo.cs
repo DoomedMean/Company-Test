@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Qtasnim Digital Teknologi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+61bb9b1037f31e9bff2d53419fa32dfec23201f9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+030a9ddc2e1d32d6a0f25d0798995b3a3d4217a0")]
 [assembly: System.Reflection.AssemblyProductAttribute("Qtasnim Digital Teknologi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Qtasnim Digital Teknologi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

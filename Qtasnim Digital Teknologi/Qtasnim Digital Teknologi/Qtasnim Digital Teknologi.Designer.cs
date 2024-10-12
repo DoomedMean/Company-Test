@@ -31,6 +31,9 @@
 			pnlDGVInventory = new Panel();
 			dgvInventory = new DataGridView();
 			pnlSideBar = new Panel();
+			btnSend = new Button();
+			btnFetch = new Button();
+			tboxLink = new TextBox();
 			btnAdd = new Button();
 			btnRefresh = new Button();
 			btnDelete = new Button();
@@ -46,7 +49,7 @@
 			pnlDGVInventory.Dock = DockStyle.Fill;
 			pnlDGVInventory.Location = new Point(0, 0);
 			pnlDGVInventory.Name = "pnlDGVInventory";
-			pnlDGVInventory.Size = new Size(619, 450);
+			pnlDGVInventory.Size = new Size(608, 450);
 			pnlDGVInventory.TabIndex = 1;
 			// 
 			// dgvInventory
@@ -55,24 +58,56 @@
 			dgvInventory.Dock = DockStyle.Fill;
 			dgvInventory.Location = new Point(0, 0);
 			dgvInventory.Name = "dgvInventory";
-			dgvInventory.Size = new Size(619, 450);
+			dgvInventory.Size = new Size(608, 450);
 			dgvInventory.TabIndex = 0;
 			// 
 			// pnlSideBar
 			// 
+			pnlSideBar.Controls.Add(btnSend);
+			pnlSideBar.Controls.Add(btnFetch);
+			pnlSideBar.Controls.Add(tboxLink);
 			pnlSideBar.Controls.Add(btnAdd);
 			pnlSideBar.Controls.Add(btnRefresh);
 			pnlSideBar.Controls.Add(btnDelete);
 			pnlSideBar.Controls.Add(btnSave);
 			pnlSideBar.Dock = DockStyle.Right;
-			pnlSideBar.Location = new Point(619, 0);
+			pnlSideBar.Location = new Point(608, 0);
 			pnlSideBar.Name = "pnlSideBar";
-			pnlSideBar.Size = new Size(181, 450);
+			pnlSideBar.Size = new Size(192, 450);
 			pnlSideBar.TabIndex = 5;
+			// 
+			// btnSend
+			// 
+			btnSend.Location = new Point(98, 65);
+			btnSend.Name = "btnSend";
+			btnSend.Size = new Size(82, 32);
+			btnSend.TabIndex = 8;
+			btnSend.Text = "Send";
+			btnSend.UseVisualStyleBackColor = true;
+			btnSend.Click += btnSend_Click;
+			// 
+			// btnFetch
+			// 
+			btnFetch.Location = new Point(10, 65);
+			btnFetch.Name = "btnFetch";
+			btnFetch.Size = new Size(82, 32);
+			btnFetch.TabIndex = 7;
+			btnFetch.Text = "Fetch";
+			btnFetch.UseVisualStyleBackColor = true;
+			btnFetch.Click += btnFetch_Click;
+			// 
+			// tboxLink
+			// 
+			tboxLink.Location = new Point(10, 23);
+			tboxLink.Name = "tboxLink";
+			tboxLink.Size = new Size(170, 23);
+			tboxLink.TabIndex = 6;
+			tboxLink.Enter += tboxLink_Enter;
+			tboxLink.Leave += tboxLink_Leave;
 			// 
 			// btnAdd
 			// 
-			btnAdd.Location = new Point(46, 134);
+			btnAdd.Location = new Point(61, 135);
 			btnAdd.Name = "btnAdd";
 			btnAdd.Size = new Size(82, 32);
 			btnAdd.TabIndex = 5;
@@ -82,7 +117,7 @@
 			// 
 			// btnRefresh
 			// 
-			btnRefresh.Location = new Point(46, 314);
+			btnRefresh.Location = new Point(61, 315);
 			btnRefresh.Name = "btnRefresh";
 			btnRefresh.Size = new Size(82, 32);
 			btnRefresh.TabIndex = 4;
@@ -92,7 +127,7 @@
 			// 
 			// btnDelete
 			// 
-			btnDelete.Location = new Point(46, 192);
+			btnDelete.Location = new Point(61, 193);
 			btnDelete.Name = "btnDelete";
 			btnDelete.Size = new Size(82, 32);
 			btnDelete.TabIndex = 2;
@@ -102,12 +137,13 @@
 			// 
 			// btnSave
 			// 
-			btnSave.Location = new Point(46, 245);
+			btnSave.Location = new Point(61, 246);
 			btnSave.Name = "btnSave";
 			btnSave.Size = new Size(82, 32);
 			btnSave.TabIndex = 3;
 			btnSave.Text = "Save";
 			btnSave.UseVisualStyleBackColor = true;
+			btnSave.Click += btnSave_Click;
 			// 
 			// QtasnimDigitalTeknologi
 			// 
@@ -123,6 +159,7 @@
 			pnlDGVInventory.ResumeLayout(false);
 			((System.ComponentModel.ISupportInitialize)dgvInventory).EndInit();
 			pnlSideBar.ResumeLayout(false);
+			pnlSideBar.PerformLayout();
 			ResumeLayout(false);
 		}
 
@@ -138,5 +175,8 @@
 		private DataGridViewTextBoxColumn downOperationsDataGridViewTextBoxColumn;
 		private DataGridViewTextBoxColumn activeProviderDataGridViewTextBoxColumn;
 		private Button btnAdd;
+		private Button btnSend;
+		private Button btnFetch;
+		private TextBox tboxLink;
 	}
 }

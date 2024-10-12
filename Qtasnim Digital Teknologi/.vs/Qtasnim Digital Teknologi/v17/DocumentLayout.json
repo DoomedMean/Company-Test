@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "D:\\Project\\Company-Test\\Qtasnim Digital Teknologi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B41322C6-D363-4C31-8BCA-3F4FE8119D7B}|Qtasnim Digital Teknologi\\Qtasnim Digital Teknologi.csproj|d:\\project\\company-test\\qtasnim digital teknologi\\qtasnim digital teknologi\\qtasnim digital teknologi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B41322C6-D363-4C31-8BCA-3F4FE8119D7B}|Qtasnim Digital Teknologi\\Qtasnim Digital Teknologi.csproj|solutionrelative:qtasnim digital teknologi\\qtasnim digital teknologi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B41322C6-D363-4C31-8BCA-3F4FE8119D7B}|Qtasnim Digital Teknologi\\Qtasnim Digital Teknologi.csproj|D:\\Project\\Company-Test\\Qtasnim Digital Teknologi\\qtasnim digital teknologi\\qtasnim digital teknologi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{B41322C6-D363-4C31-8BCA-3F4FE8119D7B}|Qtasnim Digital Teknologi\\Qtasnim Digital Teknologi.csproj|solutionrelative:qtasnim digital teknologi\\qtasnim digital teknologi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
@@ -31,26 +27,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Qtasnim Digital Teknologi.cs",
-              "DocumentMoniker": "D:\\Project\\Company-Test\\Qtasnim Digital Teknologi\\Qtasnim Digital Teknologi\\Qtasnim Digital Teknologi.cs",
-              "RelativeDocumentMoniker": "Qtasnim Digital Teknologi\\Qtasnim Digital Teknologi.cs",
-              "ToolTip": "D:\\Project\\Company-Test\\Qtasnim Digital Teknologi\\Qtasnim Digital Teknologi\\Qtasnim Digital Teknologi.cs",
-              "RelativeToolTip": "Qtasnim Digital Teknologi\\Qtasnim Digital Teknologi.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAuwAwAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T03:02:38.319Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "Qtasnim Digital Teknologi.cs [Design]",
               "DocumentMoniker": "D:\\Project\\Company-Test\\Qtasnim Digital Teknologi\\Qtasnim Digital Teknologi\\Qtasnim Digital Teknologi.cs",
               "RelativeDocumentMoniker": "Qtasnim Digital Teknologi\\Qtasnim Digital Teknologi.cs",
-              "ToolTip": "D:\\Project\\Company-Test\\Qtasnim Digital Teknologi\\Qtasnim Digital Teknologi\\Qtasnim Digital Teknologi.cs [Design]*",
-              "RelativeToolTip": "Qtasnim Digital Teknologi\\Qtasnim Digital Teknologi.cs [Design]*",
+              "ToolTip": "D:\\Project\\Company-Test\\Qtasnim Digital Teknologi\\Qtasnim Digital Teknologi\\Qtasnim Digital Teknologi.cs [Design]",
+              "RelativeToolTip": "Qtasnim Digital Teknologi\\Qtasnim Digital Teknologi.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T03:02:34.417Z"
+              "WhenOpened": "2024-10-11T23:16:28.202Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }

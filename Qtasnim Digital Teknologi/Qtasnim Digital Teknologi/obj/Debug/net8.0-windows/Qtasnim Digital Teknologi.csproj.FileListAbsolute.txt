@@ -263,3 +263,5 @@ D:\Project\Company-Test\Qtasnim Digital Teknologi\Qtasnim Digital Teknologi\obj\
 D:\Project\Company-Test\Qtasnim Digital Teknologi\Qtasnim Digital Teknologi\obj\Debug\net8.0-windows\Qtasnim Digital Teknologi.genruntimeconfig.cache
 D:\Project\Company-Test\Qtasnim Digital Teknologi\Qtasnim Digital Teknologi\obj\Debug\net8.0-windows\ref\Qtasnim Digital Teknologi.dll
 D:\Project\Company-Test\Qtasnim Digital Teknologi\Qtasnim Digital Teknologi\obj\Debug\net8.0-windows\Qtasnim_Digital_Teknologi.QtasnimDigitalTeknologi.resources
+D:\Project\Company-Test\Qtasnim Digital Teknologi\Qtasnim Digital Teknologi\obj\Debug\net8.0-windows\Qtasnim_Digital_Teknologi.Loading.resources
+D:\Project\Company-Test\Qtasnim Digital Teknologi\Qtasnim Digital Teknologi\obj\Debug\net8.0-windows\Qtasnim_Digital_Teknologi.Properties.Resources.resources
