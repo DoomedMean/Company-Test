@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("1. DANA BAGUS INDONESIA")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+61bb9b1037f31e9bff2d53419fa32dfec23201f9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8f470586cc800c8015a29641b8a01f00f742ebf6")]
 [assembly: System.Reflection.AssemblyProductAttribute("1. DANA BAGUS INDONESIA")]
 [assembly: System.Reflection.AssemblyTitleAttribute("1. DANA BAGUS INDONESIA")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
